@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f5f6fa;
+            color: #222;
+            font-family: Arial, sans-serif;
+        }
+
+        .main {
+            margin: 40px auto;
+            max-width: 1200px;
+            padding: 30px;
+        }
+
+        .breadcrumb {
+            color: #777;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .breadcrumb a:hover {
+            color: #2948a3;
+            text-decoration: underline;
+        }
+
+
+        .breadcrumb a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.3s ease;
+
+        }
+
+
+
+        .container {
+            display: flex;
+            gap: 40px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            align-items: flex-start;
+
+        }
+
+        .category {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+
+        .game-image img {
+            width: 300px;
+            height: 420px;
+            object-fit: cover;
+            border-radius: 18px;
+        }
+
+        .game-info {
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 38px;
+            margin-bottom: 18px;
+            color: #172554;
+        }
+
+
+        .description {
+            color: #555;
+            line-height: 1.8;
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+
+        .geners {
+            margin-bottom: 25px;
+        }
+
+        .genres span {
+            display: inline-block;
+            background-color: #e8edff;
+            color: #2948a3;
+            padding: 9px 15px;
+            border-radius: 20px;
+            margin: 5px 5px 5px 0;
+            font-size: 13px;
+        }
+
+        .details {
+            margin-top: 10px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+
+        .details h2 {
+            margin-bottom: 15px;
+            color: #172554;
+            font-size: 22px;
+        }
+
+        .details p {
+            margin-bottom: 14px;
+            color: #444;
+            font-size: 15px;
+        }
+
+        .section {
+            background-color: white;
+            margin-top: 25px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+        }
+
+
+        .section h2 {
+            color: #172554;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .section p {
+            color: #333333;
+            line-height: 1.4;
+            font-size: 16px;
+        }
+
+        .section b {
+
+            color: #000000;
+        }
+
+        .footer {
+            text-align: center;
+            columns: #777;
+            margin-top: 35px;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 750px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .game-image img {
+                width: 100%;
+                height: auto;
+            }
+
+            .h1 {
+                font-size: 30px;
+                ;
+            }
+
+            .main {
+                margin: 15px auto;
+                padding: 15px;
+            }
+        }
+    </style>
+
+
+
+</head>
+
+
+
+<body>
+
+    <div class="main">
+
+        <div class="breadcrumb">
+            <a href="/index.html">Home</a> / <a href="Resident Evil 3.html">Resident Evil 3</a>
+        </div>
+
+        <div class="container">
+
+            <div class="game-image">
+                <img src="/Game_Photo/Resident Evil 3.jfif" alt="Resident Evil 3">
+            </div>
+
+            <div class="game-info">
+
+                <div class="category">
+                    • ACTION • HORROR • SURVIVAL • SHOOTER •ADVENTURE
+                </div>
+
+                <h1>Resident Evil 3</h1>
+
+                <p class="description">
+                    Resident Evil 3 is a survival horror game developed
+                    and published by Capcom. Players follow Jill Valentine
+                    as she attempts to escape Raccoon City during a deadly
+                    zombie outbreak while being hunted by a terrifying
+                    bioweapon called Nemesis.
+                </p>
+
+
+                <div class="genres">
+                    <span>Action</span>
+                    <span>Puzzles</span>
+                    <span>RPG</span>
+                    <span>Survival Horror</span>
+                    <span>Shooter</span>
+                    <span>Single Player</span>
+                </div>
+
+                <div class="details">
+
+                    <h2>Game Information</h2>
+
+                    <p><b>Release Year:</b> 2019</p>
+                    <p><b>Developer:</b> CAPCOM Co., Ltd.</p>
+                    <p><b>Publisher:</b> CAPCOM Co., Ltd.</p>
+                    <p><b>Genre:</b> Action, Survival Horror, Shooter</p>
+                    <p><b>Platform:</b> PC, PlayStation, Xbox</p>
+                    <p><b>Game Mode:</b> Single Player</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section">
+            <h2>About the Game</h2>
+
+            <p>
+                Resident Evil 3 is a remake of the classic 1999
+                survival horror game. The story follows Jill Valentine,
+                a former S.T.A.R.S. officer, as she tries to escape
+                Raccoon City during a deadly zombie outbreak.
+
+                She must survive dangerous creatures while being
+                relentlessly hunted by Nemesis, a powerful bioweapon.
+            </p>
+
+        </div>
+
+
+
+        <div class="section">
+            <h2>Gameplay</h2>
+
+            <p>
+                Resident Evil 3 features third-person survival horror
+                gameplay. Players control Jill Valentine, explore
+                dangerous locations, solve puzzles, collect weapons
+                and supplies, and battle terrifying zombies.
+
+                They must also escape from the relentless Nemesis.
+            </p>
+        </div>
+
+
+
+        <div class="section">
+
+            <h2>Key Features</h2>
+            <p>
+                • Play as Jill Valentine and escape Raccoon City<br><br>
+                • Survive the terrifying Nemesis<br><br>
+                • Realistic graphics powered by the RE Engine<br><br>
+                • Fast-paced third-person survival horror combat<br><br>
+                • Explore dangerous locations and collect supplies<br><br>
+                • Fight zombies and powerful mutated creatures
+            </p>
+        </div>
+
+
+        <div class="footer">
+            © 2026 My Gaming Website | All Rights Reserved
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

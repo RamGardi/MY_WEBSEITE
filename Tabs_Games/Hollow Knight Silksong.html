@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f5f6fa;
+            color: #222;
+            font-family: Arial, sans-serif;
+        }
+
+        .main {
+            margin: 40px auto;
+            max-width: 1200px;
+            padding: 30px;
+        }
+
+        .breadcrumb {
+            color: #777;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .breadcrumb a:hover {
+            color: #2948a3;
+            text-decoration: underline;
+        }
+
+
+        .breadcrumb a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.3s ease;
+
+        }
+
+
+
+        .container {
+            display: flex;
+            gap: 40px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            align-items: flex-start;
+
+        }
+
+        .category {
+            color: #777;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+
+        .game-image img {
+            width: 300px;
+            height: 420px;
+            object-fit: cover;
+            border-radius: 18px;
+        }
+
+        .game-info {
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 38px;
+            margin-bottom: 18px;
+            color: #172554;
+        }
+
+
+        .description {
+            color: #555;
+            line-height: 1.8;
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+
+        .geners {
+            margin-bottom: 25px;
+        }
+
+        .genres span {
+            display: inline-block;
+            background-color: #e8edff;
+            color: #2948a3;
+            padding: 9px 15px;
+            border-radius: 20px;
+            margin: 5px 5px 5px 0;
+            font-size: 13px;
+        }
+
+        .details {
+            margin-top: 10px;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+
+        .details h2 {
+            margin-bottom: 15px;
+            color: #172554;
+            font-size: 22px;
+        }
+
+        .details p {
+            margin-bottom: 14px;
+            color: #444;
+            font-size: 15px;
+        }
+
+        .section {
+            background-color: white;
+            margin-top: 25px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+        }
+
+
+        .section h2 {
+            color: #172554;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .section p {
+            color: #333333;
+            line-height: 1.4;
+            font-size: 16px;
+        }
+
+        .section b {
+
+            color: #000000;
+        }
+
+        .footer {
+            text-align: center;
+            columns: #777;
+            margin-top: 35px;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 750px) {
+            .container {
+                flex-direction: column;
+            }
+
+            .game-image img {
+                width: 100%;
+                height: auto;
+            }
+
+            .h1 {
+                font-size: 30px;
+                ;
+            }
+
+            .main {
+                margin: 15px auto;
+                padding: 15px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="breadcrumb">
+            <a href="/index.html">Home</a> / <a href="Hollow Knight Silksong.html">Hollow Knight: Silksong</a>
+        </div>
+
+
+        <div class="container">
+
+            <div class="game-image">
+                <img src="/Game_Photo/HollowKnightSilksong.jfif" alt="Hollow Knight:Silksong" width="200">
+            </div>
+
+            <div class="game-info">
+
+                <div class="category">
+                    ACTION • ADVENTURE • INDIE
+                </div>
+
+
+
+                <h1>Hollow Knight : Silksong</h1>
+
+                <P class="description">
+                    As the lethal hunter Hornet, adventure through a kingdom ruled by silk and song!
+                    Captured and taken to this unfamiliar world, prepare to battle mighty foes and
+                    solve ancient mysteries as you ascend on a deadly pilgrimage to the kingdom’s peak.
+                </P>
+
+
+                <div class="genres">
+                    <span>Action</span>
+                    <span>Adventure</span>
+                    <span>Indie</span>
+                    <span>2D</span>
+                    <span>Story Rich</span>
+                    <span>Single Player</span>
+                    <span>Exploration</span>
+                </div>
+
+
+                <div class="details">
+
+                    <h2>Game Information</h2>
+
+                    <p><b>Release Year:</b> 2025</p>
+                    <p><b>Developer:</b> Team Cherry</p>
+                    <p><b>Publisher:</b> Team Cherry</p>
+                    <p><b>Genre:</b> Action, Adventure, Indie</p>
+                    <p><b>Platform:</b> PC, PlayStation, Xbox, Nintendo Switch</p>
+                    <p><b>Game Mode:</b> Single Player</p>
+                    <p><b>Difficult Level : </b> Very Hard</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section">
+
+            <h2>About the Game</h2>
+            <p>
+                Hollow Knight: Silksong is the epic sequel to Hollow Knight.
+                Play as Hornet and journey through the mysterious kingdom of Pharloom.
+
+                Explore new lands, discover powerful abilities, battle dangerous enemies and uncover ancient
+                secrets.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Gameplay</h2>
+            <p>
+                <b>Fast-Paced Combat :</b> Hornet is much more nimble than the Knight from the first game,
+                featuring a faster combat tempo, higher mobility, and the ability to speak.
+            </p>
+
+            <p>
+                <b>Acrobatic Traversal :</b> Moves include sprinting, a grappling hook, gliding, and
+                complex midair combat maneuvers.
+            </p>
+
+            <p>
+                <b>Silk Healing & Tools :</b> Hornet heals using "silk" gathered by attacking enemies.
+                You can also craft and equip color-coded tools (like Sting Shards) and unlockable
+                crests that alter your move set and passive abilities.
+            </p>
+
+            <p>
+                <b>World & Bosses:</b> The interconnected world features over 200 distinct enemies
+                and more than 40 boss encounters, accompanied by an orchestral score by Christopher
+                Larkin.
+            </p>
+
+            <p>
+                <b>Platforms : </b> Available on PC (Windows, Linux, macOS), Nintendo Switch, Nintendo
+                Switch 2, PlayStation 4, PlayStation 5, Xbox One, and Xbox Series X/S.
+            </p>
+
+        </div>
+
+        <div class="section">
+            <h2>Key Features</h2>
+
+            <p>
+                • Explore the mysterious kingdom of Pharloom<br><br>
+                • Fast acrobatic combat as Hornet<br><br>
+                • Craft powerful tools and weapons<br><br>
+                • Battle more than 200 enemies<br><br>
+                • Challenge more than 40 bosses<br><br>
+                • Beautiful orchestral soundtrack
+            </p>
+        </div>
+
+        <div class="footer">
+            © 2026 My Gaming Website | All Rights Reserved
+        </div>
+
+    </div>
+
+</body>
+
+</html>
